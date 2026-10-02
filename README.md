@@ -34,4 +34,6 @@ It's **client-side only** and works on any server, including vanilla ones. It us
 ./gradlew build
 ```
 
-The jar ends up in `build/libs/`. Pushing a tag like `v1.0.1` publishes a release automatically.
+The jar ends up in `build/libs/`.
+
+To ship an update, bump `mod_version` in `gradle.properties` and push. GitHub Actions builds it and publishes a release automatically.
