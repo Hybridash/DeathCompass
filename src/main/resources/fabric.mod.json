@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "deathcompass",
+	"version": "${version}",
+	"name": "DeathCompass",
+	"description": "After you die, an arrow under your crosshair points back to where you died, with the distance. Client-side, works on any server.",
+	"authors": ["Hybridash"],
+	"contact": {
+		"sources": "https://github.com/Hybridash/DeathCompass",
+		"issues": "https://github.com/Hybridash/DeathCompass/issues"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.hybridash.deathcompass.DeathCompassClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
